@@ -11,7 +11,7 @@ console.log(3
 
     //***************data types ******************/
 
-    //number => 2 tp power 53
+    //number => 2 to power 53
     //bigint => for largest num..used in stock market etc
     //String => "abc"
     // boolean => true/fales
@@ -19,8 +19,9 @@ console.log(3
     //undefined => value is not assigned yet
     // symbol => for uniqueness
     // object
-
-    console.log(typeof"sonali");
-    console.log(typeof age);
-    console.log(typeof null);   //it is an object type
-    console.log(typeof undefined);
+ 
+    console.log(typeof"sonali");           // string
+    console.log(typeof age);               // number
+    console.log(typeof isLoggedIn);        // boolean
+    console.log(typeof null);              // it is an object type
+    console.log(typeof undefined);         // undefined

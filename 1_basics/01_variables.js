@@ -6,7 +6,7 @@ let accountState;
 
 //accountId = 12343243  //not allowed to change value of a const variable
 
-accountEmail = "sonaly123@gmail.com"
+accountEmail = "sonal123@gmail.com"
 accountPassword = "43232"
 accountCity = "Delhi"
 
