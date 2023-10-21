@@ -24,4 +24,5 @@ that's why null >= 0 is true and null == 0 is false
 // use ' === ' for strictly comparision(data types)
 console.log('a' === 'a');
 console.log(2 === 2);
+console.log();
 
