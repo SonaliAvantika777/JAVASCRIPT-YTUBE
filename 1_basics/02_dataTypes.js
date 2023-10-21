@@ -11,7 +11,7 @@ console.log(3
 
     //***************data types ******************/
 
-    //number => 2 to power 53
+    // number => 2 to power 53
     //bigint => for largest num..used in stock market etc
     //String => "abc"
     // boolean => true/fales

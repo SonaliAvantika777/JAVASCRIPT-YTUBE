@@ -31,3 +31,4 @@ const url = "http://localhost-3306/raystech"
 // console.log(url.includes('hello'));
 
 console.log(url.split('/'))
+console.log(url.split(':'));

@@ -24,7 +24,7 @@ const zeros = 100000
 // console.log(Math.abs(33.11));                         // 33.11
 // console.log(Math.abs(-4));                            // 4
 // console.log(Math.round(43.99));                       // 44
-// console.log(Math.ceil(5.1));                          // 6
+console.log(Math.ceil(5.1));                          // 6
 // console.log(Math.floor(9.8));                         // 9
 // console.log(Math.min(2,7,4,99));                      // 2
 // console.log(Math.max(3,5,22,77,33,2,0));              // 77

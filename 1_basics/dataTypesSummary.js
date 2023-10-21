@@ -27,7 +27,7 @@ let myObject = {
     name :"sonali",
     address : "Indore"
 }
-//console.log(typeof myObject);     //object
+// console.log(typeof myObject);     //object
 
 const myFunction =  function(){
     console.log("Hello World");

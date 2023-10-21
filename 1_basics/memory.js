@@ -7,7 +7,7 @@ let anotherName = myName
 anotherName = "Priya"
 // myName = "ram"
 console.log(myName);
-console.log(anotherName);
+// console.log(anotherName);
 
 let user1 ={
     email : "user1@gmail.com",
