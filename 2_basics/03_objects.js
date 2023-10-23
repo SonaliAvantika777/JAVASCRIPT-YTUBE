@@ -5,16 +5,17 @@ const mySym = Symbol("key1")
 
 const user = {
     name :  "Sonali",
-    "full name " : "Sonali Yaduvanshi",
+    "full name" : "Sonali Yaduvanshi",
     email : "user@gmail.com",
     isLoggedIn : false,
     lastLogin : ["Monday","Friday"],
     [mySym] : "mykeys"
 }
+
 //  console.log(user.name);
 //  console.log(user["full name "]);
 //  console.log(user["email"]);
-// console.log(typeof user[mySym]);
+//  console.log(typeof user[mySym]);
 
  user.email = "sonali@google.com"
  //Object.freeze(user);
