@@ -11,7 +11,7 @@ let userEmail ;     //undifined
 
 const id = Symbol('123456')
 const anotherId = Symbol('123456')
-//console.log(id == anotherId);
+//console.log(id == anotherId);         // false
 //console.log(typeof id);      //symbol
 
 const bigNumber = 1234567890987654321n

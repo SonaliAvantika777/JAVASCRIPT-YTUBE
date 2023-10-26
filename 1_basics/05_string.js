@@ -1,23 +1,23 @@
 const name = "sonali"
 const repoCount = 40
 
-//console.log(name + repoCount + " Something");
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+// console.log(name + repoCount + " Something");                    //sonali40 Something
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
  
 const myName = new String("Sonali-yyy")
 // console.log(myName);
-// console.log(myName[0]);
-// console.log(myName.__proto__); 
+// console.log(myName[0]);             // S
+// console.log(myName.__proto__);      // {}
 // console.log(myName.length);
 // console.log(myName.toUpperCase());
 // console.log(myName.charAt(3));
 // console.log(myName.indexOf('l'));
 
 const newString = myName.substring(0,6)
-//console.log(newString);
+// console.log(newString);                   // Sonali
 
 const anotherString = myName.slice(0,8)
-//console.log(anotherString);
+// console.log(anotherString);                // Sonali-y
 
 const trimName = "    yadav     "
 // console.log(trimName);

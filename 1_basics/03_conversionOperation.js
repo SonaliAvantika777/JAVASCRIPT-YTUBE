@@ -12,14 +12,16 @@ let valueInNumber = Number(score)
 // true => 1; false => 0
 // undefined => Nan
 // "sonali" => NaN
+// null => 0
 
 let isLoggedIn = ""
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-//console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 //1 => true; 0 => false
 //"" => false
 //"werewq" => true
+// 101
 
 
 let id = 101
@@ -37,8 +39,8 @@ let negValue = -value
 //console.log(2-2);
 //console.log(2*2);
 // console.log(2**3);              // 8
-//console.log(2/3);
-//console.log(2%3);
+// console.log(2/3);
+// console.log(2%3);
 
 let str1 = "sonali"
 let str2 = " yadav"
@@ -48,8 +50,8 @@ let str3 = str1+str2
 // console.log("1" + 2);          // 122
 // console.log("1"+ 2 + 2);       // 122
 // console.log(1 + 2 + "2");      // 32
-// console.log(true);             // true
-// console.log(+"");              // 0
+// console.log(true+true);        // 2
+console.log(+"");              // 0
 
 
 let x = 30;
