@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM at night</title>
+</head>
+<body>
+    <ul class="language">
+        <li>Java</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName) {
+       const list =  document.createElement('li')
+       list.innerHTML = `${langName}`
+       document.querySelector('.language').
+       appendChild(list)
+    }
+    addLanguage("JavaScript")
+    addLanguage("Python")
+
+   // optimized way to add language in list
+   function addOptiLanguage(langName) {
+        const list = document.createElement('li')
+        list.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(list)
+   }
+   addOptiLanguage("Golang")
+
+   // to edit a language in a list
+
+   const secondLang = document.querySelector("li:nth-child(2)")
+   console.log(secondLang)
+   // secondLang.innerHTML = "Mojo"
+    const newList = document.createElement('li')
+    newList.textContent = "Mojo"
+    secondLang.replaceWith(newList)
+
+    //edit
+    const firstLang = document.querySelector("li:first-child")
+    console.log(firstLang);
+    firstLang.outerHTML = '<li>TypeScript</li>'
+
+    // remove
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()
+
+
+</script>
+</html>
